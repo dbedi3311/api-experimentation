@@ -11,6 +11,33 @@ Experimenting with open source APIs and parsing their outputs with Python (using
 I have taken the notes below to help me understand how to replicate this setup. 
 ## Getting Started
 
+1. Clone the repository on your local machine using: 
+```
+git clone https://github.com/dbedi3311/api-experimentation.git
+```
+
+2. Create a python virtualenv called aq_venv (this can be substituded for a name of your choosing)
+```
+python3 -m venv aq_venv
+```
+and activate using 
+```
+source aq_venv/bin/activate
+```
+
+3. Install the package requirements with
+```
+pip install -r requirements.txt
+```
+
+Now you're ready to begin working with `airquality_ingest.py` 
+
+
+## Personal Notes for Later Use
+Command that I used to make the .gitignore from toptal
+```
+curl -o .gitignore https://www.toptal.com/developers/gitignore/api/python,pycharm
+```
 
 ### TODO:
 - Using a cache to store the data (perhaps Redis)
