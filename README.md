@@ -33,6 +33,12 @@ pip install -r requirements.txt
 Now you're ready to begin working with `airquality_ingest.py` 
 
 
+## Personal Notes for Later Use
+Command that I used to make the .gitignore from toptal
+```
+curl -o .gitignore https://www.toptal.com/developers/gitignore/api/python,pycharm
+```
+
 ### TODO:
 - Using a cache to store the data (perhaps Redis)
 - Handling time-data formats
