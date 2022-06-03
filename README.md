@@ -31,6 +31,12 @@ pip install -r requirements.txt
 ```
 
 Now you're ready to begin working with `airquality_ingest.py` 
+Take a look at the code while reading the comments (they'll be helpful, I promise).
+
+If you want to launch the openAQ demo application that uses mapbox configuration to view TileJSON, I've developed a small flask application to serve the html template provided by querying the API. Simply run: `flask run` in your terminal when in the directory containing app.py. You can view the html and javascript code that renders the map in the `templates/tileviewer.html` file.
+
+I've provided a screenshot of how the demo looks:
+<img width="1792" alt="image" src="https://user-images.githubusercontent.com/29437601/171939295-993ac73d-69b6-49a3-9fdb-f70be239617f.png">
 
 
 ## Personal Notes for Later Use
