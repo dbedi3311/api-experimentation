@@ -146,3 +146,13 @@ print(datetime.utcnow())
 json_latest_full = iterate_request(URL_LATEST, {'limit': 1000})
 pprint(obtain_freq(json_latest_full, 'lastUpdated'))
 print(datetime.utcnow())
+
+# Interesting transition to Pub/Sub Model for the API found here:
+# https://openaq.medium.com/get-faster-access-to-real-time-air-quality-data-from-around-the-world-c6f9793d5242
+
+'''
+ To account for this, I'll need to build an HTTP endpoint to receive the POST requests from Amazon SNS. 
+ I'll fidget around with TileJSON in this API first. I'm curious as to how it functions and how it can 
+ transpose to a map.
+'''
+
