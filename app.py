@@ -10,3 +10,7 @@ def hello_world():
 @app.route("/tileview")
 def tile_view():
     return render_template("tileviewer.html")
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
